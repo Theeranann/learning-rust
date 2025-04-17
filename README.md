@@ -1,9 +1,13 @@
 # 🦀 Learning Rust – Basic
 
 This repository contains my hands-on journey through learning the Rust programming language.  
-Each folder under `basic/` represents a small focused topic, covering one key concept in Rust.
+Each folder under `basic/` or `oop/` represents a small focused topic, covering one key concept in Rust.
+
+---
 
 ## 📁 Folder Structure
+
+### 🧱 Basic Topics
 
 | Topic | Description |
 |-------|-------------|
@@ -27,6 +31,13 @@ Each folder under `basic/` represents a small focused topic, covering one key co
 | `traits-as-a-type` | Using traits as types with `dyn` and trait bounds |
 | `vectors` | Working with vectors and dynamic arrays |
 
+### 🧠 Object-Oriented Practice
+
+| Folder | Description |
+|--------|-------------|
+| `oop-basic` | Basic object-oriented design in Rust using traits and dynamic dispatch |
+| `solid` | Practicing SOLID principles using traits and composition |
+
 ---
 
 ## 📦 How to Run
@@ -34,5 +45,5 @@ Each folder under `basic/` represents a small focused topic, covering one key co
 Each folder is an independent Rust project. To run a specific one:
 
 ```bash
-cd basic/<project-name>
+cd basic/<project-name> # or cd oop/<project-name>
 cargo run
